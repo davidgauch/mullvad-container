@@ -17,7 +17,7 @@ REPO
 
 # Install the package
 apt-get update
-apt-get install -y mullvad-vpn
+apt-get install -y mullvad-vpn nftables
 apt-get clean
 rm -rf /var/lib/apt/lists/*
 EOF
